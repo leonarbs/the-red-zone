@@ -1,0 +1,339 @@
+/*!
+ * Start Bootstrap - Scrolling Nav (https://startbootstrap.com/template-overviews/scrolling-nav)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-scrolling-nav/blob/master/LICENSE)
+ */
+
+/* KEEP THESE STYLES */
+    header {
+      padding: 154px 0 100px;
+    }
+
+    @media (min-width: 992px) {
+      header {
+        padding: 156px 0 100px;
+      }
+    }
+
+    section {
+      padding: 150px 0;
+    }
+/* END OF KEEP THESE STYLES */
+
+/*typography*/
+    p {
+        font-family: 'Newsreader', serif;
+        font-size: 18px;
+    }
+
+    h2 {
+        font-family: 'Oswald', sans-serif;
+        font-size: 50px;
+        font-weight: 300;
+        text-align: center;
+        padding-bottom: 25px;
+    }
+
+    .survivor-name {
+        font-family: 'Oswald', sans-serif;
+        font-size: 35px;
+        font-weight: 500;
+        text-align: left;
+    }
+
+    h3 {
+        font-family: 'Newsreader', serif;
+        font-size: 30px;
+        font-weight: 400;
+    }
+
+    li {
+        font-family: 'Newsreader', serif;
+        font-size: 18px;
+        font-weight: 400;
+    }
+
+    .sub {
+        margin-left: 20px;
+        list-style-type: circle;
+    }
+
+    .float-end {
+        font-family: 'Oswald', sans-serif;
+        font-size: 24px;
+    }
+
+    a {
+        color: #dc3545;
+        font-family: 'Newsreader', serif;
+        font-weight: 600;
+    }
+
+    a:link {
+        color: #dc3545;
+        text-decoration: none;
+    }
+
+    a:visited {
+        color: #dc3545;
+        text-decoration: none;
+    }
+
+    a:hover {
+        color: #dc3545;
+        text-decoration: underline;
+    }
+
+    a:active {
+        color: #dc3545;
+        text-decoration: none;
+    }
+/*End main typography*/
+
+/*header section*/
+    header {
+        background-image: url(../images/wilson-dark-hero.jpg); 
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center top;
+        background-size: cover;
+        background-color: rgba(100, 0, 0, 0.7);
+        background-blend-mode: darken;
+        padding:40px;
+        color: #F6EBE0;
+        height: 100vh;
+        margin: auto;
+    }
+
+    header img {
+        position:absolute;
+        top: 2%;
+        right: 2%;
+        height: 10%;
+    }
+
+    .title-place {
+        position: absolute;
+        bottom: 2%;
+        width: 100%;
+        padding-left: 30px;
+        margin: auto;
+        z-index: 10;
+    }
+
+
+    h1 {
+        font-family: 'Oswald', sans-serif;
+        font-weight: 600;
+        font-size: 7rem;
+        text-align: left;
+        text-transform: uppercase;
+
+    }
+    header p {
+        font-family: 'Oswald', sans-serif;
+        font-size: 1.3rem;
+        text-align: left;
+    }
+/*End header section*/
+
+/*Survivor 1 section*/
+    #survivor1 {
+        background-image: url(../images/surv1.jpg); /*Photo by Aiony Haust on Unsplash*/ 
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+        background-size: cover;
+        background-color: rgba(0, 0, 0, 0.6);
+        background-blend-mode: darken;
+        padding:40px;
+        color: white;
+        height: 195vh;
+    }
+
+    .storyover {
+        padding-top: 100vh;
+        max-width: 1200px;
+        margin: auto;
+        text-align: left;
+    }
+/*end survivor 1 section*/
+
+/*National data, JMU Policy section*/
+    #national, #jmupol, #jmuresponse, #resources {
+        padding: 50px 0px;
+        max-width: 1200px;
+        margin: auto;
+    }
+
+    #national img {
+        display: flex;
+        justify-content: center;
+        margin: auto;
+        max-width: 100%;
+        height: auto;
+    }
+    #national .figure-caption {
+        text-align: center;
+    }
+/*end National data, JMU Policy section*/
+
+/*Survivor 2*/
+    #survivor2 {
+        background-image: url(../images/surv2.jpg); /*Photo by Aiony Haust on Unsplash*/ 
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: 50% 25%;
+        background-size: cover;
+        background-color: rgba(0, 0, 0, 0.4);
+        background-blend-mode: darken;
+        padding:40px;
+        color: white;
+        height: 230vh;
+    }
+/*End Survivor 2 section*/
+
+/*Timeline section*/
+    #timeline {
+        max-width: 900px;
+        margin: auto;
+        padding: 50px 0px;
+    }
+
+    #timeline img {
+        max-width: 100%;
+        height: auto;
+    }
+/*End timeline section*/
+
+/*footer section*/
+    footer {
+        color: white;
+    }
+    footer:a {
+        color: white;
+    }
+
+    footer a:link {
+        color: white;
+        text-decoration: underline;
+    }
+
+    footer a:visited {
+        color: white;
+        text-decoration: underline;
+
+    }
+
+    footer a:hover {
+        color: white;
+        text-decoration: none;
+    }
+
+    footer a:active {
+        color: white;
+        text-decoration: underline;
+    }
+/*end footer section*/
+
+/*Back to top button from Dr. Steven Anderson's website */
+    #back2Top {
+        width:50px; /* width of button */
+        height:50px; /* height of button */
+        line-height:55px;
+        overflow:hidden;
+        z-index:999;
+        display:none; /* initially not displayed */
+        cursor:pointer;
+        transform:rotate(270deg); /* turns right arrow 270 degrees */
+        position:fixed; /* fixed at bottom corner */
+        bottom:30px; /* distance from bottom */
+        right:40px; /* distance from right */
+        padding:0px; /* padding around arrow */
+        border: none;
+        border-radius: 7px;
+        background:rgba(49, 62, 80, 0.6); /* gray-ish background with transparency */
+        color:#eee; /* color of arrow */
+        text-align:center;
+        font-size:30px; /* size of the arrow */
+        text-decoration:none;
+    }
+    #back2Top:link {
+        background:rgba(49, 62, 80, 0.6);
+        color:#fff;
+    }
+    #back2Top:visited {
+        background:rgba(49, 62, 80, 0.6);
+        color:#fff;
+    }
+    #back2Top:hover {
+        background:rgba(49, 62, 80, 0.9);
+        color:#eee;
+    }
+    #back2Top:active {
+        background:rgba(49, 62, 80, 0.6);
+        color:#fff;
+    }
+/*end b2t section*/
+
+/*media queries for proper viewing heighths/font sizes*/
+@media only screen and (min-width:600px) {
+
+    h1 {
+        font-size: 13rem;
+    }
+    #survivor1 {
+        height: 185vh;
+    }
+
+    #survivor2 {
+        height: 210vh;
+    }
+}
+
+
+@media only screen and (min-width:720px) {
+    h1 {
+        font-size: 15rem;
+    }
+    #survivor1 {
+        height: 170vh;
+    }
+
+    #survivor2 {
+        height: 195vh;
+    }
+}
+
+@media only screen and (min-width:900px) {
+    #survivor1 {
+        height: 160vh;
+    }
+
+    #survivor2 {
+        height: 180vh;
+    }
+}
+
+@media only screen and (min-width:1040px) {
+    #survivor2 {
+        height: 170vh;
+    }
+}
+
+@media only screen and (min-width:1350px) {
+        header p {
+        padding-left: 27px;
+
+    }
+}
+
+/*media query for reduced motion*/
+@media (prefers-reduced-motion: reduce) {
+    * { 
+    transition-property: none !important;
+    transform: none !important;
+    animation: none !important;
+    background-attachment: scroll !important;
+    }
+}
